@@ -83,10 +83,19 @@ description = """
 &nbsp;&nbsp;&nbsp;&nbsp; - Sentiment analysis of the transcriptions<br>
 <br>
 🎯 The sentiment analysis results are provided as a dictionary with different emotions and their corresponding scores.<br>
-✅ The higher the score for a specific emotion, the stronger the presence of that emotion in the transcribed text.<br>
-❓ Use the "Input Audio" option to provide an audio file or use the microphone for real-time speech recognition.<br>
-⚡️ The model will transcribe the audio and perform sentiment analysis on the transcribed text.<br>
+<br>
+
 😃 The sentiment analysis results are displayed with emojis representing the corresponding sentiment.<br>
+<br>
+
+✅ The higher the score for a specific emotion, the stronger the presence of that emotion in the transcribed text.<br>
+<br>
+
+❓ Use the microphone for real-time speech recognition.<br>
+<br>
+
+⚡️ The model will transcribe the audio and perform sentiment analysis on the transcribed text.<br>
+
 """
 
 custom_css = """
