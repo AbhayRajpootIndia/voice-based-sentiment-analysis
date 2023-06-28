@@ -151,6 +151,6 @@ with block:
             <p>Model by <a href="https://github.com/openai/whisper" style="text-decoration: underline;" target="_blank">OpenAI</a>
             </p>
         </div>
-        ''')
+        ''') 
 
 block.launch()
