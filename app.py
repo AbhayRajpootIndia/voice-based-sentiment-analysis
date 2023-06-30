@@ -72,7 +72,7 @@ def inference(audio, sentiment_option):
     return lang.upper(), result.text, sentiment_output
 
 title = """<h1 align="center">🎤 Multilingual ASR 💬</h1>"""
-image_path = "2.jpg"
+image_path = "4.jpg"
 description = """
 💻 This demo showcases a general-purpose speech recognition model called Whisper. It is trained on a large dataset of diverse audio and supports multilingual speech recognition, speech translation, and language identification tasks.<br><br>
 <br>
