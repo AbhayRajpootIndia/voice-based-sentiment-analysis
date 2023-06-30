@@ -75,7 +75,7 @@ title = """<h1 align="center">🎤 Multilingual ASR 💬</h1>"""
 image_path = "thmbnail.jpg"
 description = """
 💻 This demo showcases a general-purpose speech recognition model called Whisper. It is trained on a large dataset of diverse audio and supports multilingual speech recognition, speech translation, and language identification tasks.<br><br>
-<br><br>
+<br>
 ⚙️ Components of the tool:<br>
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp; - Real-time multilingual speech recognition<br>
