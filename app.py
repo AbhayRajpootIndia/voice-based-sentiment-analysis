@@ -122,18 +122,18 @@ with block:
             gr.HTML(description)
 
     with gr.Group():
-        with gr.Box():
+        with gr.Group():
             audio = gr.Audio(
                 label="Input Audio",
                 show_label=False,
-                source="microphone",
+                sources=["microphone"],
                 type="filepath"
             )
 
             sentiment_option = gr.Radio(
                 choices=["Sentiment Only", "Sentiment + Score"],
                 label="Select an option",
-                default="Sentiment Only"
+                # default="Sentiment Only"
             )
 
             btn = gr.Button("Transcribe")
@@ -142,7 +142,7 @@ with block:
 
         text = gr.Textbox(label="Transcription")
 
-        sentiment_output = gr.Textbox(label="Sentiment Analysis Results", output=True)
+        sentiment_output = gr.Textbox(label="Sentiment Analysis Results") #, output=True
 
         btn.click(inference, inputs=[audio, sentiment_option], outputs=[lang_str, text, sentiment_output])
 
